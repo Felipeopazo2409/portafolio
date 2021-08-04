@@ -1,0 +1,117 @@
+
+@media(max-width:1000px){
+    .container-info{
+        width: 30%;
+    }
+    .container-description{
+        width: 70%;
+    }
+}
+
+@media(max-width:877px){
+    .container-info{
+        width: 35%;
+    }
+    .container-description{
+        width: 65%;
+    }
+}
+
+@media(max-width:746px){
+    .container-info{
+        width: 40%;
+    }
+    .container-description{
+        width: 60%;
+    }
+}
+@media(max-width:670px){
+    .container-info{
+        width: 45%;
+    }
+    .container-description{
+        width: 55%;
+    }
+}
+@media(max-width:584px){
+    .main-container{
+        flex-direction: column;
+    }
+    .container-info{
+        width: 100%;
+        order: 2;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .container-description{
+        width: 100%;
+        order: 1;
+        
+    }
+    .presentacion h1,h3{
+        text-align: center;
+    }
+
+    .imagen{
+        display: none;
+    }
+    .contacto{
+        width: 50%;
+     
+    }
+    .redes{
+        width: 40%;
+      
+    }
+    .habilidades{
+        width: 50%;
+    }
+    .referencias{
+        width: 40%;
+    }
+}
+
+@media(max-width:499px){
+    *{
+        text-align: center;
+    }
+    .contacto{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid rgb(70, 89, 102);
+        
+    }
+    .contacto > ul > li:last-child{
+        margin-bottom: 25px;
+    }
+    .redes{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid rgb(70, 89, 102);
+    }
+    .redes > ul > li:last-child{
+        margin-bottom: 25px;
+    }
+
+    .habilidades{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid rgb(70, 89, 102);
+    }
+    .habilidades > ul > li:last-child{
+        margin-bottom: 25px;
+    }
+    .referencias{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
